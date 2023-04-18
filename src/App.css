@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    font-size: 62.5%;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    text-decoration: none;
+    color: #000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.col-9 {
+    width: 75%;
 }
 
-.App-link {
-  color: #61dafb;
+:root {
+    --header-height: 80px;
+    --primary-color: #3fd0d4;
+    --box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-main {
+    background-color: var(--primary-color);
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+/* Phần header */
+.wrapHeader {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    line-height: 80px;
+    font-size: 1.4rem;
+}
+
+.headerHeight {
+    height: 80px;
+}
+
+/* Phần login */
+.wrapLogin {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #eaeef1;
+}
+
+.addressInput {
+
+    width: 80%;
+    margin: 8px 10%;
+    height: 36px;
+    font-size: 1.4rem;
+    padding-left: 12px;
+    outline: none;
+
+}
+
+.loginBtn {
+    width: 40%;
+    height: 32px;
+    line-height: 32px;
+    margin: 8px 30% 24px;
+    background-color: #fff;
+    font-size: 1.4rem;
+}
+
+/* Phần update */
+
+.updateInput {
+    height: 32px;
+    border: solid 1px;
+    outline: none;
+    margin: 8px 0;
+    line-height: 32px;
+    padding-left: 8px;
+    font-size: 1.2rem;
+    width: 200px;
 }
