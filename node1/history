@@ -1,0 +1,9 @@
+miner.setEtherbase(eth.accounts[0])
+admin.peers
+eth.blockNumber
+admin.addPeer("enode://993b6e908447d2398566f1f935a7e9e555e9ab43b28a0ef4cbd348d37ce34cd97b3acf7e29a59424090ed2e3dabc86112c990e4934c1531ab1790c38585f29c8@100.112.48.135:30304?discport=0")
+admin.peers
+miner.start()
+miner.stop()
+admin.peers
+D

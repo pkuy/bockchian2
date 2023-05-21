@@ -1,0 +1,8 @@
+miner.setEtherbase(eth.accounts[0])
+eth.blockNumber
+admin.addPeer("enode://2db197fc6cc557af93c4788d334d9b28eac09d803defd9dd16108d5c131ca8d86402cf2749b3adfe67bf1f501938ca01f8dfefd05f8236bcbb96fb4c3b8178db@100.112.48.135:30303?discport=0")
+admin.addPeer("enode://653ba4b92d7b4579607d6774deee474e5363143d0908144a3f54176d460858428404335465e4c03b7809a40f9699e599d4b56644cc9717cc7843caf7f1dc25de@100.112.48.135:30305?discport=0")
+admin.peers
+miner.start()
+miner.stop()
+admin.peers

@@ -1,0 +1,40 @@
+=============== May 21, 2023 (+07) ===============
+10:20:50.040998 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:20:50.188750 db@open opening
+10:20:50.190464 version@stat F·[] S·0B[] Sc·[]
+10:20:50.222172 db@janitor F·2 G·0
+10:20:50.222172 db@open done T·33.4226ms
+10:20:50.548118 db@close closing
+10:20:50.548118 db@close done T·0s
+=============== May 21, 2023 (+07) ===============
+10:21:22.532313 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:21:22.532313 version@stat F·[] S·0B[] Sc·[]
+10:21:22.532313 db@open opening
+10:21:22.533311 journal@recovery F·1
+10:21:22.535306 journal@recovery recovering @1
+10:21:23.580241 memdb@flush created L0@2 N·11 S·634B "H\xacM..,\xa5\x82,v4":"r\x00\x00..,\xa5\x82,v6"
+10:21:23.582955 version@stat F·[1] S·634B[634B] Sc·[0.25]
+10:21:23.797961 db@janitor F·3 G·0
+10:21:23.797961 db@open done T·1.2656479s
+=============== May 21, 2023 (+07) ===============
+10:25:14.523930 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:25:14.523930 version@stat F·[1] S·634B[634B] Sc·[0.25]
+10:25:14.524449 db@open opening
+10:25:14.524449 journal@recovery F·1
+10:25:14.527204 journal@recovery recovering @3
+10:25:14.664623 memdb@flush created L0@5 N·239 S·9KiB "\x01\xa3\xdb..\x98\xf5f,v49":"\xfe\x9a\x12..\xd2\xe4\xa4,v170"
+10:25:14.666675 version@stat F·[2] S·10KiB[10KiB] Sc·[0.50]
+10:25:14.765670 db@janitor F·4 G·0
+10:25:14.765670 db@open done T·241.2203ms
+=============== May 21, 2023 (+07) ===============
+12:03:38.394618 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:03:38.395624 version@stat F·[2] S·10KiB[10KiB] Sc·[0.50]
+12:03:38.396616 db@open opening
+12:03:38.396616 journal@recovery F·1
+12:03:38.400601 journal@recovery recovering @6
+12:03:38.784029 memdb@flush created L0@8 N·2786 S·252KiB "\x00,\xe1..\x1f\xf3\xd8,v2588":"\xff\x18\xc0..\xbcv[,v2629"
+12:03:38.787914 version@stat F·[3] S·263KiB[263KiB] Sc·[0.75]
+12:03:38.885696 db@janitor F·5 G·0
+12:03:38.885696 db@open done T·489.0803ms
+12:28:43.343629 db@close closing
+12:28:43.343629 db@close done T·0s

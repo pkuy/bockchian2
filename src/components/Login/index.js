@@ -8,10 +8,11 @@ export default function Login() {
     const inputRef = useRef()
 
     useEffect(() => {
-        const web3 = new Web3('http://localhost:7545')
+        const web3 = new Web3('http://127.0.0.1:30303')
 
-        web3.eth.getAccounts()
+        web3.eth.personal.getAccounts()
             .then(accounts => {
+                console.log('Danh sách tài khoản node 1:', accounts);
                 setAccounts(accounts)
             })
             .catch(() => alert('Kiểm tra lại kết nối'))
@@ -27,6 +28,7 @@ export default function Login() {
                 alert("Không được để trống")
             else {
                 console.log(inputRef.current.value)
+                //console.log(accounts)
                 const accountCurent = accounts.find((account) => account === inputRef.current.value)
                 if (accountCurent) {
                     localStorage.setItem('login', JSON.stringify({ account: accountCurent, state: true }))
